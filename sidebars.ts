@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
         'features/usuarios-equipo',
         'features/tablerokanban',
         'features/metodos-pago',
+        'features/portal-general',
       ],
     },
 

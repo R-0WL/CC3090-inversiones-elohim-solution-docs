@@ -14,6 +14,7 @@ El módulo de usuarios y equipo te permite invitar, autorizar y controlar quién
 - Auditar acciones de usuarios en el sistema
 - Revocar acceso cuando alguien se va
 - Gestionar permisos por módulo/funcionalidad
+- Buscar y filtrar miembros del equipo rápidamente
 
 ## Casos de uso
 1. **Dueño + 1 Administrador**: Repartir responsabilidades de gestión
@@ -48,6 +49,8 @@ El módulo de usuarios y equipo te permite invitar, autorizar y controlar quién
 - **Historial de actividad**: Auditoría de qué hizo cada persona y cuándo
 - **Revocación instantánea**: Desactivar acceso al instante
 - **2FA opcional**: Autenticación de dos factores para cuentas sensibles
+- **Paginación y filtros**: el listado de usuarios se divide en páginas y se puede filtrar, con botón "Limpiar filtros"
+- **Inicio y cierre de sesión con Google**: los miembros pueden entrar con su cuenta de Google y cerrar sesión correctamente
 
 ## Integración con otras funciones
 - Los Admins pueden configurar **Stripe** y **Cloudinary**

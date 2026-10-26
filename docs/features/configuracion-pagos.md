@@ -25,6 +25,8 @@ La configuración de pagos es el módulo que conecta tu tienda con **Stripe**, u
 - **Reembolsos automáticos**: Procesar devoluciones directamente desde el panel
 - **Historial de transacciones**: Auditoría completa de cada pago
 - **Webhooks**: Actualizaciones automáticas cuando cambia el estado de un pago
+- **Recibo en PDF**: al comprar o reservar, el cliente puede descargar su recibo
+- **Información del pago en el carrito**: el cliente ve los datos de su pago con Stripe y el botón de descarga del recibo dentro del carrito, que también fue rediseñado
 
 ## Integración con otras funciones
 - Se sincroniza automáticamente con **Reportes** para análisis de ingresos

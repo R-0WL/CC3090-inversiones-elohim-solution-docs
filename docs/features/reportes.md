@@ -14,6 +14,7 @@ El módulo de reportes te proporciona visibilidad completa sobre el desempeño d
 - Detectar patrones de compra de clientes
 - Comparar desempeño entre períodos (mes anterior, año anterior)
 - Exportar datos para análisis externo
+- Hacer tus propias consultas SQL sobre los datos de tu tienda
 
 ## Casos de uso
 1. **Toma de decisiones**: ¿Qué productos invertir más stock?
@@ -21,13 +22,25 @@ El módulo de reportes te proporciona visibilidad completa sobre el desempeño d
 3. **Evaluación de campañas**: ¿El constructor visual mejoró las ventas?
 4. **Auditoría financiera**: Reconciliar ventas con ingresos reales
 5. **Presentación a stakeholders**: Generar reportes para socios o inversionistas
+6. **Consultas a la medida**: Obtener un dato específico que no aparece en los reportes predefinidos
 
 ## Características clave
 - **Dashboards personalizables**: Elige qué métricas ver primero
 - **Filtros avanzados**: Filtra por sucursal, producto, rango de fechas, método de pago
 - **Comparativas**: Compara períodos lado a lado
 - **Gráficos interactivos**: Hover sobre datos para detalles
-- **Exportación en múltiples formatos**: CSV, PDF, Excel
+- **Gráficas con etiquetas**: Los ejes y leyendas de las gráficas del Dashboard y de Reportes muestran nombres para entender mejor los datos
+- **Exportación en múltiples formatos**: CSV y Excel
+
+## Consola de consultas SQL
+En la pestaña **Personalizado (SQL)** puedes escribir tus propias consultas:
+
+- **Editor con resaltado y autocompletado** de tablas y columnas
+- **Ver Esquema & Atributos**: panel de ayuda con la lista de tablas y columnas disponibles
+- **Filtro de tienda obligatorio**: por seguridad, toda consulta debe filtrar por `tenant_id` (hay un botón para insertarlo automáticamente)
+- **Solo lectura**: las consultas se ejecutan con privilegios restringidos y no pueden modificar datos
+- **Resultados**: se muestran junto al editor; puedes filtrarlos, copiarlos como JSON o exportarlos a CSV
+- **Mensajes de error claros** con sugerencias para corregir la consulta
 
 ## Métricas disponibles
 - **Ingresos totales**: Dinero entrante real
@@ -47,4 +60,3 @@ El módulo de reportes te proporciona visibilidad completa sobre el desempeño d
 Ve a **Reportes** en la barra lateral de tu panel administrativo.
 
 Todos tus datos se actualizan automáticamente cada vez que hay una venta.
-
